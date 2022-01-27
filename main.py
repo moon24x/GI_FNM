@@ -859,7 +859,7 @@ import contextlib
 z = lambda x: list(map(int, x.split(',')))
 def abli_exp(n=[10], dataset="mnist"):
 
-    partitions = ["hetero-dir", "homo"]
+    partitions = ["hetero-dir"]
     #n_layer_list = [i+2 for i in range(n_layers-1)] # don't need layer_num 1
     if args.layers == 1:
         #n_list = [i+1 for i in range(n)]
